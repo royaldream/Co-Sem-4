@@ -13,14 +13,14 @@ void person :: getdata()
 {
     cout<<"Enter Your Name : ";
     cin>>name;
-    cout<<"Enter Your Name : ";
+    cout<<"Enter Your Age : ";
     cin>>age;
 }
 void person :: display()
 {
-    cout<<"\nEnter Your Name : "<<name;
+    cout<<"\Your Name : "<<name;
 
-    cout<<"\nEnter Your Name : "<<age;
+    cout<<"\Your Age : "<<age;
 
 }
 int main()
